@@ -47,8 +47,5 @@ public class login {
                 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
                 driver.navigate().refresh();
                 }
-  //driver.navigate().forward();
-  //driver.findElement(By.xpath("//*[@id=\"add-to-cart-button\"]")).click();
-  //driver.findElement(By.xpath("//*[@id=\"hlb-view-cart-announce\"]")).click();
     }
 }
